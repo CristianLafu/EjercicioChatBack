@@ -7,6 +7,9 @@ app.use(express.json());
 app.use(cors());
 
 // Configuración de rutas
+router.get('/', (req, res) => {
+    res.json('Una rutita dentro del back para probar')
+});
 
 
 
